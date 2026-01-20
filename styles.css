@@ -1,0 +1,34 @@
+body{
+    margin: 20px;
+}
+/* utility classes */
+.blueborder{
+    border: 1px dotted blue  ;
+}
+.card{
+    width: 550px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: #ddebf8;
+    border-bottom: #d8cefe 30px solid;
+    
+}
+.avatar{
+    width: 400px;
+    height: 400px;
+
+    
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.content{
+    margin: auto 0;
+    text-align: center;
+    color: #2b2839;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
